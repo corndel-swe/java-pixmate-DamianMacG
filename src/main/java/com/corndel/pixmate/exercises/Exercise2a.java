@@ -17,7 +17,14 @@ public class Exercise2a {
    * @return the sum of numbers that meet the criteria
    */
   public static int sumSelective(int[] numbers) {
-    // TODO
-    return 0;
+    int sum = 0;
+
+    for( int i = 0; i < numbers.length; i++) {
+
+      if((numbers[i] > 10 || numbers[i] % 2 == 0) && !(numbers[i] > 10 && numbers[i] % 2 == 0)) {
+        sum += numbers[i];
+      }
+    }
+    return sum;
   }
 }
