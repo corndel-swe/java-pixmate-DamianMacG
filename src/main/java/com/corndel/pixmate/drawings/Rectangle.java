@@ -3,8 +3,8 @@ package com.corndel.pixmate.drawings;
 public class Rectangle {
 
     public static void main(String[] args) {
-        int width = 10;  // Width of the rectangle
-        int height = 5;  // Height of the rectangle
+        int width = 10;
+        int height = 5;
 
         StringBuilder str = new StringBuilder();
 
@@ -12,7 +12,7 @@ public class Rectangle {
             for (int j = 0; j < width; j++) {
                 str.append("*");
             }
-            // Append a newline character after each row
+
             str.append(System.lineSeparator());
         }
 
