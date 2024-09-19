@@ -11,7 +11,6 @@ public class TriangleSandwich {
             System.out.println(str);
         }
         for (int i = str.length() -1; i > 0; i--) {
-
             str.deleteCharAt(str.length() - 1);
             System.out.println(str);// Remove the last character
         }
